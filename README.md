@@ -33,9 +33,11 @@ cp .env.example .env
 **Open project in terminal and run this commands:**
 1. composer install
 2. npm install
-3. php artisan migrate
-4. php artisan db:seed
-5. php artisan serve
+3. npm run dev
+4. php artisan migrate
+5. php artisan db:seed
+6. php artisan key:generate
+7. php artisan serve
 
 **Open in browser http://127.0.0.1:8000**
 
